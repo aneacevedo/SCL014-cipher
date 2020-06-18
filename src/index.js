@@ -1,28 +1,24 @@
-//.import cipher from './cipher.js';//
-
-//console.log(cipher);//
 import cipher from './cipher.js';
 let userName;
 let string;
 let offset;
+
 const buttonEncode = document.getElementById("encode_page");
 buttonEncode.addEventListener("click", encode);
 const buttonDecode = document.getElementById("decode_page");
 buttonDecode.addEventListener("click", decode);
+
 function nombre() {
     userName = document.getElementById("name").value;
+
 }
-//*funcion para cambiarletras minusculas a mayuscula (onkeyup="myFunction() va haciendo cambio uno X uno")*//
-function  myFunction() {
-    var x = document.getElementById("message_to_encode");
-    x.value = x.value.toUpperCase();
-}
+
 function encode() {
     nombre();
     document.getElementById("start").innerHTML = `
-  <p>¡Hola ${userName.toUpperCase()}!</p> 
+  <p>¡Hola ${userName.toUpperCase()}!</p>
   <form>
-  <textarea id="message_to_encode" onkeyup="myFunction()" rows="4" placeholder="Mensaje a codificar:"></textarea>
+  <textarea id="message_to_encode"  rows="4" placeholder="Mensaje a codificar:"></textarea>
   </form>
   <br>
   <div class="pass">
@@ -39,14 +35,17 @@ function encode() {
   <br>
   <br>
   <button type="button" id="button_start" class="btn-style">Volver al inicio</button> 
+ 
  `
     var button = document.getElementById("copyID"),
         input = document.getElementById("content");
+
     button.addEventListener("click", function (event) {
         event.preventDefault();
         input.select();
         document.execCommand("copy");
     });
+
     const buttonBack1 = document.getElementById("button_start");
     buttonBack1.addEventListener('click', startAgain1);
     const startEncode = document.getElementById("start_encode");
@@ -57,18 +56,18 @@ function encode() {
         document.getElementById("content").innerHTML = finalMessage;
     });
 }
+
 function startAgain1() {
     window.location = "index.html";
 }
-//*funcion para cambiarletras minusculas a mayuscula (onkeyup="myFunction() va haciendo cambio uno X uno")*//
-myFunction()
+
 
 function decode() {
     nombre();
     document.getElementById("start").innerHTML = `
   <p>¡Hola ${userName.toUpperCase()}!</p>
   <form>
-  <textarea id="message_to_decode" rows="4" cols="25" onkeyup="myFunction()"  placeholder="Mensaje a decodificar:"></textarea>
+  <textarea id="message_to_decode" rows="4" cols="25"   placeholder="Mensaje a decodificar:"></textarea>
   </form>
   <br>
   <div class="pass">
@@ -84,15 +83,18 @@ function decode() {
   <input type="button" id="copyID" class="copy-btn" />
   <br>
   <br>
+
   <button type="button" id="button_start" class="btn-style">Volver al inicio</button>
   `
     var button = document.getElementById("copyID"),
         input = document.getElementById("content");
+
     button.addEventListener("click", function (event) {
         event.preventDefault();
         input.select();
         document.execCommand("copy");
     });
+
     const buttonBack1 = document.getElementById("button_start");
     buttonBack1.addEventListener('click', startAgain1);
     const startDecode = document.getElementById("start_decode");
@@ -103,4 +105,5 @@ function decode() {
         document.getElementById("content").innerHTML = finalMessage;
     });
 }
-/*console.log(cipher);*/
+
+//--*console.log(cipher);*//
