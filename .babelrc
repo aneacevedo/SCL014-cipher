@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 // transf  ES6 a COMMON JS //
 {
     "plugins": ["@babel/plugin-transform-modules-commonjs"]
   }
+=======
+{
+    "plugins": ["@babel/plugin-transform-modules-commonjs"]
+}
+>>>>>>> upstream/master

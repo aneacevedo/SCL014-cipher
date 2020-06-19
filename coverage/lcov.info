@@ -1,5 +1,9 @@
 TN:
+<<<<<<< HEAD
 SF:/Users/Naty/Documents/JAVASCRIPT/SCL014-cipher/src/cipher.js
+=======
+SF:C:\Users\Zenta\Desktop\Proyecto Cipher\SCL014-cipher\src\cipher.js
+>>>>>>> upstream/master
 FN:6,encodeMessage
 FN:34,decodeMessage
 FNF:2
