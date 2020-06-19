@@ -6,7 +6,7 @@ let offset;
 
 
 //acá estamos creando los botones para la opción de cifrar y descifrar.
- upstream/master
+
 const buttonEncode = document.getElementById("encode_page");
 buttonEncode.addEventListener("click", encode);
 const buttonDecode = document.getElementById("decode_page");
@@ -25,7 +25,7 @@ function myFunction() {
 }
 
 //función para mostrar la página de codificado.
-upstream/master
+
 function encode() {
     nombre();
     document.getElementById("start").innerHTML = `

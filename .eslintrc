@@ -1,20 +1,5 @@
 {
     "env": {
-<<<<<<< HEAD
-      "browser": true,
-      "jest": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 2018,
-      "sourceType": "module"
-    },
-    "extends": "eslint:recommended",
-    "rules": {
-      "no-console": "warn",
-      "import/extensions": 0
-    }
-  } 
-=======
         "browser": true,
         "jest": true
     },
@@ -28,4 +13,3 @@
         "import/extensions": 0
     }
 }
->>>>>>> upstream/master

@@ -25,5 +25,18 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "install": "^0.13.0"
-  }
+  },
+  "description": "## Índice",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsquezadam/SCL014-cipher.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/nsquezadam/SCL014-cipher/issues"
+  },
+  "homepage": "https://github.com/nsquezadam/SCL014-cipher#readme"
 }
