@@ -1,24 +1,26 @@
-Cipher 
-Te  presentamos Cipher, te permite codificar  y decodificar  un texto   usando  el famoso cifrado César  o cifrado de rotación usa una encriptación de sustitución simple. Esto significa que cada caracter se sustituye por otro caracter de acuerdo con un sistema especifico,  segun sea la clave elegida  e ingresada  por el usuario .Te Invitamos  a probarla  
+# Cipher 
+Te  presentamos Cipher, te permite codificar  y decodificar  un texto   usando  el famoso cifrado César  o cifrado de rotación usa una encriptación de sustitución simple. Esto significa que cada caracter se sustituye por otro caracter de acuerdo con un sistema especifico,  segun sea la clave elegida  e ingresada  por el usuario .Te Invitamos  a probarla. 
 
-Contenido  
+## Contenido  
 
-STATUS  : RUNNING  
-README  : PENDING 
-COMMITS : 12
-TECH    : Javascripts ,  CSS ,
 
-Historia Contenido  y Caracteristicas 
+1. STATUS  : RUNNING  
+2. README  : PENDING 
+3. COMMITS : 12
+4. TECH    : Javascripts ,  CSS ,
 
-Se desarrola herramienta  Dirigida a adolescentes para  ser usado  con el fin de comunicarse en un lenguage  exclusivo y privado con sus pares a traves de plataformas Sociales, Juegos en linea  o chat ,  dada   Nuestra investigacion, no fue  posible darle un uso a un publico mas adulto 
-Se solicita feedback  para   eligir el diseño  mas acorde al segmento   del grupo  y se recoge  sugerencias que son aplicadas   al  diseño  
+## Historia Contenido  y Caracteristicas 
 
-Cuenta  con  un registro temporal del nombre que es borrado   ya que su uso es  privado  
-seccion para el ingreso de texto rapido  , el cual se codifica y se decofica.
+Se desarrolla herramienta dirigida a adolescentes para ser usado  con el fin de comunicarse en un lenguage  exclusivo y privado con sus pares a traves de plataformas Sociales, Juegos en linea o chat,  dada nuestra investigacion, no fue posible darle un uso a un publico mas adulto. 
+Se solicita feedback  para   eligir el diseño  mas acorde al segmento  del grupo  y se recoge  sugerencias que son aplicadas   al diseño  
 
-Instrucciones para Usuarios  
+Cuenta  con  un registro temporal del nombre que es borrado ya que su uso es  privado.
+Seccion para el ingreso de texto rapido, el cual se codifica y se decofica.
 
-Cuando esta listo para usar ,solo necesitar tener  un navegador  para  acceder   a nuestra  pagina,   Comienza  colocando tu nombre ,  
+
+## Instrucciones para Usuarios  
+
+Cuando esta listo para usar ,solo necesitar tener  un navegador  para  acceder a nuestra  pagina, Comienza  colocando tu nombre. 
 
 <p align="center">
   <img src="../src/media/IMAGWEB.png" width="250" title="web">
@@ -30,4 +32,4 @@ Luego accederemos   a  nuestro espacio   para ingresar nuestro texto  y colocar 
   <img src="../src/media/cifrado.png" width="250" title="web">
 </p>
 
-Puedes copiar tu el texto Codificado o Decodificado   para   pegarlo despues  en cualquier  pagina  , mail ,chat que tu quieras.
+Puedes copiar tu el texto Codificado o Decodificado para   pegarlo despues  en cualquier  pagina,correo electronico,chat que tu quieras.
